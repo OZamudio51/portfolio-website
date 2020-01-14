@@ -7,9 +7,21 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-nav {
+nav, footer {
     padding: 1% 0;
     background-color: #aaa;
+    
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+a {
+    text-decoration: none;
 }
 
 header {
@@ -19,10 +31,49 @@ header {
 section {
     min-height: 200px;
     background-color: #EEE;
+    overflow-x: hidden;
   }
 
-.about-me {
+  section:nth-child(even) {
+    background-color: #ddd;
+  }
+
+p {
     padding: 3%;
     margin-left: 20%;
     margin-right: 20%;
 }
+
+button {
+    margin-bottom: 30px;
+}
+
+.container-box {
+    width:300px;
+    height:200px;
+    border:1px solid #000;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.tech-and-repo {
+    position: relative;
+    right: 10em;
+    top: 1em;
+}
+
+.desc-and-liveApp {
+    position: relative;
+    left: 13em;
+    bottom: 50px;
+}
+
+.contact-box {
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin: 50px;
+}
+
+

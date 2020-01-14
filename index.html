@@ -3,21 +3,48 @@
 <head>
     <title>Oscar's Portfolio Website</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Oscar's latest creations.">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <nav role="navigation bar">Nav</nav>
+    <nav role="navigation bar">
+        <ul class="nav">
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">Email Me</a></li>
+            <li class=""><a href="#">LinkedIn</a></li>
+        </ul>
+    </nav>
     <main role="main">
         <header role="Hero">
             <h1>Hi, My name is Oscar</h1>
         </header>
         <section>
-            <p class="about-me">I'm a web developer who is currently based in Phoenix, AZ. I love watching code come to life through my unique displays of creativity. I'm proficient in HTML, CSS, JavaScript, and jQuery to name a few. When I'm not obsessing over my coding projects, you'll probably catch me on a Rugby pitch, at the gym, playing my favorite video games, or drinking excessive amounts of caffeine.
-            </p> 
+            <p>I'm a web developer who is currently based in Phoenix, AZ. I love watching code come to life through my unique displays of creativity. I'm proficient in HTML, CSS, JavaScript, and jQuery to name a few. When I'm not obsessing over my coding projects, you'll probably catch me on a Rugby pitch, at the gym, playing my favorite video games, or drinking excessive amounts of caffeine.
+            </p>
+            <button>Projects</button>
+            <button>Contact Me</button>
         </section>
+        <section>
+            <h2>Projects</h2>
+            <div class= 'container-box'>Screenshot of work goes here</div>
+            <div class="tech-and-repo">Tech: (icons will go here)
+                <br>
+                <button>Repo</button>
+            </div>
+            <div class="desc-and-liveApp">Description: (description will go here)
+                <br>
+                <button>Live app</button>
+            </div>
+        </section>
+        <section>
+            <h2>Contact Me</h2>
+            <div class="contact-box">Github</div>
+            <div class="contact-box">Email Me</div>
+            <div class="contact-box">LinkedIn</div>
+        </section>
+        <footer>footer</footer>
     </main>
 </body>
 </html>
