@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+nav {
+    padding: 1% 0;
+    background-color: #aaa;
+}
+
+header {
+    padding: 3% 0;
+  }
+
+section {
+    min-height: 200px;
+    background-color: #EEE;
+  }
+
+.about-me {
+    padding: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
