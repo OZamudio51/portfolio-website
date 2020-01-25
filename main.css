@@ -4,13 +4,16 @@
 
 body {
     text-align: center;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('http://eskipaper.com/images/cool-bokeh-wallpaper-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
 }
 
 nav, footer {
     padding: 1% 0;
-    background-color: #aaa;
-    
 }
 
 li {
@@ -22,21 +25,30 @@ li {
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#Hero{
+    color: rgb(196, 196, 196);
 }
 
 header {
-    padding: 3% 0;
+    padding: 2% 0;
   }
 
 section {
     min-height: 200px;
-    background-color: #EEE;
     overflow-x: hidden;
+    background-color: white;
+    color: black;
+    background:rgba(255, 255, 255, 0.7);
   }
 
-  section:nth-child(even) {
-    background-color: #ddd;
-  }
+
 
 p {
     padding: 3%;
@@ -48,6 +60,15 @@ button {
     margin-bottom: 30px;
 }
 
+.tech-and-desc {
+    display:flex;
+    justify-content: center; 
+}
+
+span {
+    padding: 40px;
+}
+
 .container-box {
     width:300px;
     height:200px;
@@ -56,24 +77,66 @@ button {
     display: inline-block;
 }
 
-.tech-and-repo {
-    position: relative;
-    right: 10em;
-    top: 1em;
-}
-
-.desc-and-liveApp {
-    position: relative;
-    left: 13em;
-    bottom: 50px;
-}
 
 .contact-box {
-    border: 1px solid black;
+    display: inline-block;
+}
+
+.contact-picture {
     height: 150px;
     width: 150px;
     display: inline-block;
     margin: 50px;
 }
 
+.project-picture {
+    height: 325px;
+    width: 500px;
+    display: inline-block;
+    margin: 50px;
+    border: solid 1px black;
+}
+
+.tech-picture {
+    width: 150px;
+}
+
+.tech-picture2 {
+    width: 58px;
+}
+
+button {
+    border: none;
+    background: #404040;
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+.button-styling {
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    color: #404040 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+
+@media only screen and (max-width: 900px) {
+    .project-picture {
+        width: 75%;
+    }
+
+
+  } 
 
