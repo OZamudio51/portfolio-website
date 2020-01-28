@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    height: 100vh;
+    height: 150vh;
     
 }
 
@@ -156,6 +156,10 @@ button:hover {
 
     .nav {
         display: none;
-    };
+    }
+
+    .button-styling {
+        display: block;
+    }
 }
 
