@@ -3,21 +3,26 @@
 <head>
     <title>Oscar's Portfolio Website</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Oscar's latest creations.">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <nav role="navigation bar">
+    <nav>
        <ul class="nav">
-           <li><a href="https://github.com/OZamudio51">GitHub</a></li>
-           <li><a href="mailto:zamudio_1526@hotmail.com">Email Me</a></li>
-           <li class=""><a href="https://www.linkedin.com/in/oscar-zamudio/">LinkedIn</a></li>
+           <li><a href="https://github.com/OZamudio51" target="_blank">GitHub</a></li>
+           <li><a href="mailto:zamudio_1526@hotmail.com" target="_blank">Email Me</a></li>
+           <li class=""><a href="https://www.linkedin.com/in/oscar-zamudio/" target="_blank">LinkedIn</a></li>
        </ul>
+       <div class="mobile-nav">
+           <div class="nav-div"><a href="https://github.com/OZamudio51" target="_blank">GitHub</a></div>
+           <div class="nav-div"><a href="mailto:zamudio_1526@hotmail.com" target="_blank">Email Me</a></div>
+           <div class="nav-div"><a href="https://www.linkedin.com/in/oscar-zamudio/" target="_blank">LinkedIn</a></div>
+       </div>
    </nav>
-   <main role="main">
+   <main>
        <header id="Hero">
            <h1>Hi, my name is Oscar</h1>
        </header>
@@ -36,7 +41,7 @@
                Tech:
                <br/>
                <img class="tech-picture" src="https://clipart.info/images/ccovers/1499794874html5-js-css3-logo-png.png" alt="HTML5 CSS3 JS">
-               <img class="tech-picture2" src="https://i.dlpng.com/static/png/348405_preview.png" alt="jQuery">
+               <img class="tech-picture2" src="https://i.dlpng.com/static/png/480649_preview.png" alt="jQuery">
              </span>
              <span style="margin-top: 10px">A quiz about the sport of Rugby.</span>
              
@@ -44,16 +49,18 @@
            <br/>
            <br/>
            <div class="button-styling">
-             <button style="margin-right:60px" onclick="window.location.href = 'https://github.com/OZamudio51/quiz-app';">Repo</button>
-             <button onclick="window.location.href = 'https://ozamudio51.github.io/quiz-app/';">Live app</button>
+             <button style="margin-right:60px" onclick="window.open('https://github.com/OZamudio51/quiz-app','_blank')">Repo</button>
+             <button onclick="window.open('https://ozamudio51.github.io/quiz-app/','_blank')">Live app</button>
+             <button style="margin-left: 60px" onclick="window.open('https://ozamudio51.github.io/portfolio-website/','_blank')">Main Screen</button>
            </div>
            <br/>
        </section>
        <section id="contact-screen" style="display:none">
            <h2>Contact Me</h2>
-           <div class="contact-box"><a href="https://github.com/OZamudio51"><img class="contact-picture" src="http://pngimg.com/uploads/github/github_PNG40.png" alt="github logo"></a></div>
-           <div class="contact-box"><a href="mailto:zamudio_1526@hotmail.com"><img class="contact-picture" src="https://www.freepnglogos.com/uploads/email-logo-png-27.png" alt="email logo"></a></div>
-           <div class="contact-box"><a href="https://www.linkedin.com/in/oscar-zamudio/"><img class="contact-picture" src="http://www.pngall.com/wp-content/uploads/2016/07/Linkedin-Free-Download-PNG.png" alt="linkedin logo"></a></div>
+           <div class="contact-box"><a href="https://github.com/OZamudio51" target="_blank"><img class="contact-picture" src="http://pngimg.com/uploads/github/github_PNG40.png" alt="github logo"></a></div>
+           <div class="contact-box"><a href="mailto:zamudio_1526@hotmail.com" target="_blank"><img class="contact-picture" src="https://www.freepnglogos.com/uploads/email-logo-png-27.png" alt="email logo"></a></div>
+           <div class="contact-box"><a href="https://www.linkedin.com/in/oscar-zamudio/" target="_blank"><img class="contact-picture" src="http://www.pngall.com/wp-content/uploads/2016/07/Linkedin-Free-Download-PNG.png" alt="linkedin logo"></a></div>
+           <div class="button-styling"><button onclick="window.location.href = 'https://ozamudio51.github.io/portfolio-website/';">Main Screen</button></div>
        </section>
        <footer><a href="mailto:zamudio_1526@hotmail.com">zamudio_1526@hotmail.com</a></footer>
    </main>
