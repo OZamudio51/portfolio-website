@@ -5,11 +5,7 @@
 body {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    background-color: white;
-    background-size: cover;
-    color: white;
-    
-    
+    background: lightgray;
 }
 
 nav, footer {
@@ -37,10 +33,37 @@ a:hover {
     text-decoration: underline;
 }
 
-#Hero{
+.Hero {
     color: black;
-    background: lightgray;
+    -webkit-animation: Hero 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: Hero 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+          
 }
+
+@-webkit-keyframes Hero {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes Hero {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
 
 .me-img {
     border-radius: 95px;
@@ -48,12 +71,12 @@ a:hover {
 
 header {
     padding: 2% 0;
+    background: lightgray;
   }
 
 section {
     min-height: 200px;
     overflow-x: hidden;
-    background-color: white;
     color: black;
     font-weight: 600;
     background: lightgray;
@@ -65,7 +88,35 @@ p {
     padding: 3%;
     margin-left: 20%;
     margin-right: 20%;
+    -webkit-animation: p 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: p 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
+
+ @-webkit-keyframes p {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes p {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
 
 button {
     margin-bottom: 30px;
