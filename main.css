@@ -18,11 +18,22 @@ footer {
   display: none;
 }
 
-li {
+ul {
   list-style: none;
+}
+
+.front-end-list {
+  padding-left: 50px;
+}
+
+.back-end-list {
+  padding: 0 50px 0 50px;
+}
+
+.app-desc {
+  max-width: 500px;
   display: inline-block;
-  padding-left: 10%;
-  padding-right: 10%;
+  margin-bottom: 80px;
 }
 
 a {
@@ -82,7 +93,7 @@ section {
   background: lightgray;
 }
 
-p {
+h3 {
   padding: 3%;
   margin-left: 20%;
   margin-right: 20%;
@@ -121,7 +132,7 @@ button {
 
 .tech-and-desc {
   display: block;
-  margin: 40px;
+  /* margin: 40px; */
 }
 
 span {
@@ -155,6 +166,7 @@ span {
   border: solid 1px black;
   margin-right: 35px;
   margin-left: 35px;
+  margin-top: 5px;
 }
 
 .tech-picture {
@@ -163,6 +175,10 @@ span {
 
 .tech-picture2 {
   width: 58px;
+}
+
+.tech-list {
+  display: -webkit-inline-box;
 }
 
 button {
