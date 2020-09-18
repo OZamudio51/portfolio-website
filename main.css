@@ -227,3 +227,62 @@ footer {
     flex-direction: column;
   }
 }
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+}
+
+@media only screen and (min-width: 600px) {
+  img {
+    max-width: 500px;
+    flex-direction: row;
+  }
+    .group {
+    flex-direction: row;
+  }
+}
+
+
+/* ---  (Desktop) Groups & Items --- */
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+  }
+}
+
+
+
+/* Contact Form Design */
+
+form {
+  padding-right: 8px;
+  /* Fixed small sizing issue on the right */
+}
+
+form label {
+  display: block;
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
